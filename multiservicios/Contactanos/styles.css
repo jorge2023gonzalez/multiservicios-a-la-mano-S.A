@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff67;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(22, 20, 20, 0.87);
+    text-align: center;
+    margin: color black;
+  }
+
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    text-align: color black;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }

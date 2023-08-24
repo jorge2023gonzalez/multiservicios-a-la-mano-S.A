@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portal de Pago en Línea</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f9f9fa;
+      background-image: url(img/fondo1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .container {
+      margin-top: 50px;
+      background-color: #97919157;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(190, 27, 27, 0.555);
+    }
+
+    h1 {
+      color: #030303;
+      text-align: center;
+    }
+
+    h2 {
+      color: #000000;
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background-color: #171718;
+      border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Portal de Pago en Línea</h1>
+
+    <form>
+      <div class="form-group">
+        <label for="cardNumber">Número de Tarjeta:</label>
+        <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
+      </div>
+      <div class="form-group">
+        <label for="cardHolder">Titular de la Tarjeta:</label>
+        <input type="text" class="form-control" id="cardHolder" name="cardHolder" required>
+      </div>
+      <div class="form-group">
+        <label for="expiryDate">Fecha de Vencimiento:</label>
+        <input type="text" class="form-control" id="expiryDate" name="expiryDate" required>
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="text" class="form-control" id="cvv" name="cvv" required>
+      </div>
+      <div class="form-group">
+        <label for="amount">Monto a Pagar:</label>
+        <input type="text" class="form-control" id="amount" name="amount" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Pagar</button>
+    </form>
+  </div>
+</body>
+</html>

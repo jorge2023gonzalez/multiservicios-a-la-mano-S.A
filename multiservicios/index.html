@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazar el archivo CSS -->
+    <title>Iniciar Sesión</title>
+</head>
+
+<body>
+
+   
+    
+    <div class="header">
+        
+    </div>
+    
+    <div class="login-container">
+        <h1>Bienvenidos a Multiservicios a la mano S.A</h1>
+        <h3>Seleccione el modo en el que desea ingresar</h3>
+        
+        <div class="modo-opciones">
+            <button class="opcion" id="usuario" ><a href="Iniciodesesionusuario/loginusuario.html">Usuario</a></button>
+            <button class="opcion" id="empresa" ><a href="Iniciodesesionempresa/loginempresa.html">Empresa</button>
+            
+        </div>
+        
+        <!-- <button class="boton-ingresar" onclick="ingresar()">Ingresar</button> -->
+    </div>
+    <script>
+        var modoSeleccionado = ''; // Variable para almacenar el modo seleccionado
+
+        function seleccionarModo(modo) {
+            modoSeleccionado = modo;
+            // Remover la clase "seleccionado" de todos los botones
+            var botones = document.getElementsByClassName("opcion");
+            for (var i = 0; i < botones.length; i++) {
+                botones[i].classList.remove("seleccionado");
+            }
+            // Agregar la clase "seleccionado" al botón correspondiente
+            document.getElementById(modo).classList.add("seleccionado");
+        }
+
+        function ingresar() {
+            if (modoSeleccionado) {
+                console.log("Ingresar como " + modoSeleccionado);
+                // Aquí podrías agregar lógica para redirigir a la página correspondiente
+                // dependiendo del modo de ingreso seleccionado.
+            } else {
+                console.log("Selecciona un modo de ingreso");
+            }
+        }
+    </script>
+</body>
+</html>

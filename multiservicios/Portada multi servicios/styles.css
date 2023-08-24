@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  body {
+    background-color: #000000ef; /* Cambia el color de fondo aquí */
+    background-image: url(img/fondo6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: sans-serif;
+  }
+
+
+
+
+  h3 {
+    text-align: center;
+    color: rgb(3, 3, 3);
+  }
+
+  h4 {
+    text-align: center;
+    color: rgb(8, 8, 8);
+  }
+
+
+  p {
+    text-align: left;
+    color: rgb(2, 2, 2);
+    margin-bottom: 25px;
+  }
+
+  .container2 {
+    position: relative;
+  }
+ 
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .align-left {
+    text-align: left;
+    color: rgb(10, 10, 10);
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d8d5d593;
+    padding: 20px;
+    text-align: justify;
+  }
+  .content {
+    max-width: 800px;
+  }
+
+  nav { 
+    text-align: center;
+    background-color: #333;
+    color: rgb(12, 12, 12);
+    padding: 20px;
+  }
+
+  
+
+  
